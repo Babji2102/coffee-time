@@ -35,16 +35,7 @@ body{
 /*---end of nav---*/
 /*----header----*/
 
- @keyframes slide{
-     0%{
-         transform: translate(-1000px);
-         opacity: 0;
-     }
-     100%{
-         transform: translate(0);
-         opacity: 1;
-     }
- }
+ 
  /*---end of header---*/
 /*----about us---*/
 
