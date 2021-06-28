@@ -156,6 +156,26 @@ body {
        border: 2px solid #634832;
        font-size: 25px;
    }
+                    .hvr-right{
+       display: inline-block;
+       vertical-align: middle;
+       transition-duration: 0.5s;
+       transform: perspective(1px) translatez(0);
+       box-shadow: 0 0 1px rgba(0,0,0);
+       position: relative;
+       ]transition-property: color;
+   }
+   .hvr-right:before{
+       content: "";
+       position: absolute;
+       z-index: -1;
+       top: 0;
+       left: 0;
+       bottom:0;
+       background: #dbc1ac;
+       transition-timing-function: scalex(0);
+       transform-origin: 0 50%;
+    }
                 </style>
         </div>
     </section>
