@@ -35,7 +35,7 @@ body{
 /*---end of nav---*/
 /*----header----*/
 header{
-    height: 100vh;
+    height: 50vh;
 }
 .banner{
     position: absolute;
@@ -63,11 +63,8 @@ header{
      }
  }
  /*---end of header---*/
-
-
-
- /*----about us---*/
- #about{
+/*----about us---*/
+#about{
      background: #000;
      margin-top: 30px;
      color: #dbc1ac;
