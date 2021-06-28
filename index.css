@@ -32,19 +32,11 @@ body{
 .navbar-toggler{
     outline: none!important;
 }
-
-
-
-
-
-
-
 /*---end of nav---*/
-
 /*----header----*/
 header{
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.63),rgba(0,0,0,0.5)),url('img2.jpg')no-repeat center center/cover;
+    background:linear-gradient(rgba(0,0,0,0.63),rgba(0,0,0,0.5)),url(./images/img2.jpg )no-repeat center center/cover;
 }
 .banner{
     position: absolute;
@@ -72,6 +64,9 @@ header{
      }
  }
  /*---end of header---*/
+
+
+
  /*----about us---*/
  #about{
      background: #000;
